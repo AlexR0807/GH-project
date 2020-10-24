@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 210vh;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.3em;
+    background-image: url('./img/cl1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+ .alert{
+     color: black;
+     background: red;
+ }
+
+.top_top{
+    width: 100%;
+    height: 8vh;
+    background: rgb(160, 148, 148);
+    padding-top: 10px;
+    
+}
+
+.top_top img{
+    float: left;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px silver;
+    
+}
+
+.top_top ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0 10px;
+}
+
+ul li{
+    margin-right: 10px;
+    transition: 0.5s;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+#short li a:hover{
+    color: white;
+}
+
+.top h4{
+    float: left;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.top img{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.navigation ul{
+    padding-top: 100px;
+    display: flex;
+}
+
+.navigation ul li{
+    margin: 0;
+    padding: 2px;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.navigation ul li:hover{
+    background:rgb(160, 148, 148);
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.photo{
+    background-image: url('./img/liverpool.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.middle, #dates{
+    float: right;
+    display: flex;
+}
+
+.middle #dates a{
+    text-decoration: none;
+    color: white;
+}
+.middle #dates a:hover{
+    color:grey;
+}
+
+.shedule{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.match{
+    position: absolute;
+    top:60px;
+}
+
+.match p{
+    
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px  silver;
+    width: 700px;
+    padding: 20px;
+    background: darkblue;
+}
+
+
+.match p::before{
+    content: 'Atletico';
+    color: white;
+    font-size: 1.4em;
+    padding: 50px;
+}
+.match p::after{
+    content: 'Liverpool';
+    color: white;
+    font-size: 1.4em;
+    padding: 50px;
+}
+
+.match_2 p{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px  silver;
+    width: 700px;
+    margin-left: 400px;
+    padding: 20px;
+    background: darkblue;
+    color: white;
+}
+
+.match_2 p::before{
+    
+    content: 'Dortmund';
+    color: white;
+    font-size: 1.4em;
+    padding: 50px;
+    margin-right: 20px;
+}
+
+
+.match_2 p::after{
+    content: 'Paris';
+    color: white;
+    padding: 50px;
+    font-size: 1.4em;
+    
+}
+
+.news{
+    position: relative;
+}
+
+.news_news{
+    position: absolute;
+    top: 350px;
+    height: 210px;
+    border: 2px solid #009879;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.news_news h5{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+.news_news p{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.news_news1{
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+    margin-left: 350px;
+    height: 210px;
+    box-sizing: border-box;
+    border: 2px solid #009897;
+    
+}
+
+.news_news1 h5{
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+.news_news1 p{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.news_news2{
+    position: absolute;
+    top: 300px;
+    margin-left: 740px;
+    box-sizing: border-box;
+    border: 2px solid #009897;
+    margin-top: 50px;
+    height: 210px;
+    width: 400px;
+    display: inline-block;
+    
+}
+
+.news_news2 h5{
+    color: white;
+    font-size: 1em;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.news_news2 p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0 15px;
+}
+
+.standings{
+    width: 100%;
+    position: relative;
+}
+
+.standings .table_A{
+    position: absolute;
+    top: 700px;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+.standings .table_B{
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    font-size: 1.3em;
+    padding-left: 50px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.standings .table_C{
+    position: absolute;
+    top: 700px;
+    right:400px;
+    font-size: 1.3em;
+    padding-left: 50px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.standings .table_D{
+    position: absolute;
+    top: 700px;
+    right:0;
+    font-size: 1.3em;
+    padding-left: 50px;
+    line-height: 1.3em;
+    text-align: left;
+    margin-right: 10px;
+}
+
+table td img{
+    padding-left: 20px;
+}
+
+.latest{
+    position: relative;
+}
+
+.video_1{
+    position: absolute;
+    top: 900px;
+    padding-top: 40px;
+    margin-left: 3px;
+    width: 50px;
+}
+
+.video_2{
+    position: absolute;
+    left: 750px;
+    top: 900px;
+    padding-top: 40px;
+    margin-left: 3px;
+    width: 50px;
+}
+
+
+.down{
+    position: relative;
+    width: 100%;
+}
+
+.sponsors{
+    width: 100%;
+    position: absolute;
+    top: 1300px;
+    text-align: center;
+    
+}
+
+.sponsors p{
+    font-size: 1.2em;
+}
+
+footer{
+    position: relative;
+}
+
+.the_end{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    height: 60vh;
+    background: darkblue;
+    border-radius: 20px;
+}
+
+.the_end img{
+    margin: 30px;
+    cursor: pointer;
+}
+
+.list_1{
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    color: white;
+}
+
+.list_1:hover{
+    color: grey;
+}
+
+.list_2{
+    position: absolute;
+    top: 1500px;
+    left: 400px;
+    color: white;
+}
+.list_2:hover{
+    color: grey;
+}
+
+.list_3{
+    position: absolute;
+    top: 1500px;
+    left: 600px;
+    color: white;
+}
+.list_3:hover{
+    color: grey;
+}
+.list_4{
+    position: absolute;
+    top: 1500px;
+    left: 800px;
+    color: white;
+}
+.list_4:hover{
+    color: grey;
+}
+.list_5{
+    position: absolute;
+    top: 1500px;
+    right: 200px;
+    color: white;
+}
+.list_5:hover{
+    color: grey;
+}
+
+aside{
+    position: relative;
+    width: 100%;
+}
+
+.aside{
+    position: absolute;
+    top: 1650px;
+    display: flex;
+}
+.aside p{
+    color: white;
+    margin-left: 10px;
+}
+
+.aside img{
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.aside #a{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.aside #b{
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.copyright{
+    position: absolute;
+    top: 1700px;
+}
+
+.copyright #uefa{
+    text-align: center;
+}
+
+.copyright p{
+    font-size: .8em;
+    color: white;
+    margin-left: 10px;
+}
+
+@media (max-width:500px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+  .top_top{
+      width: 120%;
+  }
+
+    .top_top #short{
+        margin: 0;
+        font-size: .6em;
+        
+        display: flex;
+        justify-content: start;
+    }
+
+    
+
+    .top_top ul li a{
+        font-size: .6em;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+
+
+
+
+
+
